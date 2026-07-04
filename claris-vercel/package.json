@@ -1,0 +1,17 @@
+{
+  "name": "claris-vercel",
+  "version": "1.0.0",
+  "description": "Asistente Dental Claris - MVP en Vercel",
+  "main": "api/chat.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
